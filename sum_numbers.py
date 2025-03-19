@@ -1,8 +1,13 @@
-def sum_numbers(n):
-    sum = 0
-    for number in range(n + 1):
-        sum += number
-    print(f"Сумма чисел от 1 до {n}: {sum}")
+def print_diamond(rows):
+
+    for i in range(rows + 1):
+        stars = '* ' * i
+        print(stars)
 
 
-sum_numbers(5)
+    for i in range(rows - 1, 0, -1):
+        stars = '* ' * i
+        print(stars)
+
+
+print_diamond(4)
