@@ -2,11 +2,11 @@ def greet_user():
     name = input("Введите ваше имя: ")
     print(f"Привет, {name}! Добро пожаловать в мир Python!")
 
-greet_user()
-
 def calculate_sum():
-    a = input("Введите первое число: ")
-    b = input("Введите второе число: ")
-    print(f"Сумма чисел: {a + b}")
+    a = int(input("Введите первое число: "))
+    b = int(input("Введите второе число: "))
+    result = a + b
+    return result
 
-calculate_sum()
+greet_user()
+print(f"Сумма чисел: {calculate_sum()}")

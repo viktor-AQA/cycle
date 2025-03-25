@@ -4,5 +4,4 @@ def check_string_length(string, length):
     else:
         print("Строка слишком короткая")
 
-
 check_string_length("string", 4)

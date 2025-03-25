@@ -5,5 +5,4 @@ def countdown_revers():
         i += 1
     print("Старт!")
 
-
 countdown_revers()

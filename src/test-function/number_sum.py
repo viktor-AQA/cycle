@@ -5,10 +5,9 @@ def cycle():
         numbers.append(number)
         number -= 1
     print(f"Числа: {numbers}")
-
-    sum = 0
+    result = 0
     for num in numbers:
-        sum += num
-    print(f"Сумма чисел {sum}")
+        result += num
+    print(f"Сумма чисел {result}")
 
 cycle()

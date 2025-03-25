@@ -1,6 +1,9 @@
 def print_diamond(rows):
-    for row in rows:
-        print("*")
-
+    for i in range(rows + 1):
+        stars = '* ' * i
+        print(stars)
+    for i in range(rows - 1, 0, -1):
+        stars = '* ' * i
+        print(stars)
 
 print_diamond(4)

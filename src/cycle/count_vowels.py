@@ -1,11 +1,12 @@
-def count_vowels(string):
+def count_vowels(str1):
     vowels = "aeiouyAEIOUY"
-
     count = 0
-    for char in string:
+    for char in str1:
         if char in vowels:
             count += 1
-    print(f"Количество гласных в строке {string}: {count}")
+    return str1, count
 
+string_input = "My name is Antonio"
+str1, count = count_vowels(string_input)
 
-count_vowels("My name is Antonio")
+print(f"Количество гласных в строке '{str1}': {count}")
